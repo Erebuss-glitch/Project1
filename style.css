@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(79, 79, 75);
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#nav h3 {
+  font-size: 17px;
+  font-weight: 500;
+  color: #040404;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 60px;
+}
+#nav h3:hover {
+  color: #e67e22;
+}
+#nav i {
+  font-size: 17px;
+  font-weight: 500;
+  color: #050505;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 60px;
+}
+#nav i:hover {
+  color: #e67e22;
+}
+#nav h1{
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav button{
+    padding: 7px 14px;
+    border: 1.5px solid black;
+    border-radius: 70px;
+    font-size: 17px;
+    font-weight: lighter;
+    
+}
+#btn2{
+  background-color: rgb(5, 2, 2);
+  color:rgb(252, 251, 251);
+}
+#btn1{
+  background-color: rgb(5, 2, 2);
+  color:rgb(252, 251, 251);
+}
+#adv{
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 100%;
+  color: beige;
+}
+img{
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 25px;
+}
+#img1{
+  transform: translate(-50%,-50%) rotate(-35deg)
+}
+#img2{
+  transform: translate(-50%,-50%) rotate(-25deg)
+}
+#img3{
+  transform: translate(-50%,-50%) rotate(-15deg)
+}
+#img4{
+  transform: translate(-50%,-50%) rotate(-5deg)
+}
+#btmleft{
+  position: absolute;
+  bottom: 5%;
+  left: 2.5%;
+  font-size: 15px;
+}
+.ri-instagram-fill{
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  font-size: 30px;
+}
+.ri-twitter-x-line{
+  position: absolute;
+  bottom: 5%;
+  right: 8%;
+  font-size: 30px;
+}
+.ri-whatsapp-line{
+  position: absolute;
+  bottom: 5%;
+  right: 5.5%;
+  font-size: 30px;
+}
+
+
